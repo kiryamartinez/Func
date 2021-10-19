@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func", "Func\Func.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthBar", "HealthBar\HealthBar.csproj", "{9B0A47FF-295B-4ACA-8397-F2378A6B402B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacMan", "PacMan\PacMan.csproj", "{06C762FE-7E4F-4A36-895D-77ED18485361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9B0A47FF-295B-4ACA-8397-F2378A6B402B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B0A47FF-295B-4ACA-8397-F2378A6B402B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B0A47FF-295B-4ACA-8397-F2378A6B402B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C762FE-7E4F-4A36-895D-77ED18485361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C762FE-7E4F-4A36-895D-77ED18485361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C762FE-7E4F-4A36-895D-77ED18485361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C762FE-7E4F-4A36-895D-77ED18485361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
