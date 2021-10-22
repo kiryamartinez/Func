@@ -43,12 +43,13 @@ namespace PacMan
                 {
                     ChangeDirection(ref ghostDX, ref ghostDY);
                 }
-                System.Threading.Thread.Sleep(100);
+                
                 if (pacmanX == ghostX && pacmanY == ghostY)
                 {
                     isAlive = false;
                 }
-                if(collectDots == allDots || !isAlive)
+                System.Threading.Thread.Sleep(50);
+                if (collectDots == allDots || !isAlive)
                 {
                     isPlaying = false;
                 }
